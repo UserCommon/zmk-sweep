@@ -28,18 +28,6 @@
             key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
-
-        combo_ralt {
-            timeout-ms = <100>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-
-        combo_lalt {
-            timeout-ms = <100>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
     };
 
     keymap {
