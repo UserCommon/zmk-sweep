@@ -15,7 +15,10 @@
     tapping-term-ms = <300>;
 };
 
-&lt { tapping-term-ms = <400>; };
+&lt {
+    tapping-term-ms = <500>;
+    flavor = "hold-preferred";
+};
 
 / {
     combos {
