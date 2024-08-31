@@ -32,7 +32,7 @@
 
         game {
             bindings = <&sl 4>;
-            key-positions = <14 10 26 2>;
+            key-positions = <9 5>;
         };
     };
 
