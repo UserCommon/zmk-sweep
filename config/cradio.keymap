@@ -31,7 +31,7 @@
         };
 
         game {
-            bindings = <&sl 4>;
+            bindings = <&to 4>;
             key-positions = <9 5>;
         };
     };
