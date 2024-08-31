@@ -29,6 +29,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <32 33>;
         };
+
+        game {
+            bindings = <&sl 4>;
+            key-positions = <14 10 26 2>;
+        };
     };
 
     keymap {
@@ -67,6 +72,15 @@
 &kp F11  &kp F4  &kp F5  &kp F6  &none     &trans  &none   &none       &none              &trans
 &kp F10  &kp F1  &kp F2  &kp F3  &none     &trans  &none   &none       &trans             &trans
                          &trans  &trans    &trans  &trans
+            >;
+        };
+
+        furry_feet_layout {
+            bindings = <
+&kp ESCAPE      &kp Q  &kp W  &kp E           &kp R        &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp A  &kp S  &kp D           &kp F        &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V        &trans  &trans  &trans  &trans  &trans
+                              &kp LEFT_SHIFT  &kp SPACE    &sl 0   &trans
             >;
         };
     };
